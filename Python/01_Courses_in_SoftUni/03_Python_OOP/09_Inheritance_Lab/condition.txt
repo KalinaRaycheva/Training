@@ -1,0 +1,39 @@
+## Part I: Inheritance
+
+01.	Single Inheritance
+Create two classes named Animal and Dog.
+Animal with a single public method eat() that returns: "eating…"
+Dog with a single public method bark() that returns: "barking…"
+Dog should inherit from Animal.
+
+02.	Multiple Inheritance
+Create three classes named Person, Employee and Teacher.
+Person with a single public method sleep() that returns: "sleeping..."
+Employee with a single public method get_fired() that returns: "fired..."
+Teacher with a single public method teach() that returns: "teaching..."
+Teacher should inherit from Person and Employee.
+
+
+03. Hierarchical Inheritance
+Create three classes named Animal, Dog and Cat.
+Animal with a single public method eat() that returns: "eating..."
+Dog with a single public method bark() that returns: "barking..."
+Cat with a single public method meow() that returns: "meowing..."
+Dog and Cat should inherit from Animal.
+
+
+## Part II: Reusing Classes
+
+04.	Random List
+Create a RandomList class that has all the functionality of a List.
+Add additional function that returns and removes a random element from the list.
+•	Public method: get_random_element()
+
+05. Stack of Strings
+Create a class Stack which can store only strings and has the following functionality:
+•	Public field: data: list
+•	Public method: push(item)
+•	Public method: pop()
+•	Public method: peek()
+•	Public method: is_empty(): returns boolean
+Override the string method to return the stack data.
