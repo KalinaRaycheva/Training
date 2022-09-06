@@ -1,13 +1,12 @@
-import csv
 import math
-import os.path
 import re
 from sys import flags
 from turtle import pd
-
 from settings.testing import INPUT_DIR
 
 
+# Finish the function by adding code that would extract the students data from the file.
+# We only need valid students_data, i.e. from filled rows.
 def get_students_data():
     with open('students_data.csv', 'r') as file:
         reader = pd.read_csv(file)
