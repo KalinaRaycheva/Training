@@ -32,4 +32,5 @@ cursor.execute("SELECT * FROM emp")
 result = cursor.fetchall()
 print(result)
  
+connection.commit()
 connection.close()
