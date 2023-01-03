@@ -11,7 +11,7 @@ def set_left(key, parent):
     if tree[parent] == None:
         print("Can't set cild at", (parent * 2) + 1, ", no parent found")
     else:
-        tree[(parent * 2) + 2] = key
+        tree[(parent * 2) + 1] = key
 
 def set_right(key, parent):
     if tree[parent] == None:
