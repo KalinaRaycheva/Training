@@ -9,3 +9,5 @@ stack.append('c')
 print(stack.pop())
 
 print(stack)
+ 
+
